@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(144, 250, 250);
+}
+.slider {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: burlywood;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    height: 30lvh;
+}
+.tabla {
+    background-color: greenyellow;
+    flex: 1;
+}
+
+.tarjeta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo {
+    flex: 1;
+    background-color: greenyellow;
+    height: 100%;
+    margin: 0;
+}
+.titulo1 {
+    flex: 2;
+    background-color: rgb(5, 179, 5);
+    height: 100%;
+    margin: 0;
+}
+.titulo2 {
+    flex: 2;
+    background-color: green;
+    height: 100%;
+    margin: 0;
+}
+
+
+.contenedor1 {
+    display: flex;
+    gap: 20px;
+    height: 30lvh;
+}
+
+.tabla1 {
+    flex: 1;
+    background-color: grey;
+}
+
+.formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario .mapa {
+    flex: 1;
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.formulario p {
+    flex: 3;
+    background-color: violet;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    height: 20vh;
+}
+footer p {
+    flex: 1;
+    background-color: brown;
+}
